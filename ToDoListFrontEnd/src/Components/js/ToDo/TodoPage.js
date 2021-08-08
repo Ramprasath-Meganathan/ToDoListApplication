@@ -25,15 +25,16 @@ function ToDoPage() {
 
   //to add the new task to the database and in the todo page
   const addTodo = text => {
-    const newTodos = [...todos, { text }];
-    setTodos(newTodos);
     const newTodo = {
       name:text,
       isComplete: false
     };
     addToDo(newTodo).then(response=>{
+      if(response!=="")
+      {
       const newTodos = todos.concat(response)
       setTodos(newTodos)
+      }
     })
   };
 
@@ -46,9 +47,9 @@ function ToDoPage() {
   };
 
   //to remove the todo item from the database
-  const removeTodo = todo => {
+  const removeTodo = (todo,index) => {
     const newTodos = [...todos];
-    newTodos.splice(todo.index, 1);
+    newTodos.splice(index, 1);
     setTodos(newTodos);
     DeleteToDo(todo.id)
     };

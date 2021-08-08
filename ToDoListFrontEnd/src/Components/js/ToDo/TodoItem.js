@@ -10,7 +10,7 @@ function TodoItem({ todo, index, completeTodo, removeTodo }) {
       <h6>{todo.name}</h6>
       <div>
          <button className="btn btn-success" hidden={todo.isComplete} onClick={() => completeTodo(index)}>✓</button> 
-        <button className="btn btn-danger" onClick={() => removeTodo(todo)}>X</button>
+        <button className="btn btn-danger" onClick={() => removeTodo(todo,index)}>X</button>
       </div>
     </div>
   );
