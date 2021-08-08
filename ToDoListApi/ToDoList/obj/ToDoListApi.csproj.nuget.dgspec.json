@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ramprasathmeganathan/Projects/ToDoListApi/ToDoList/ToDoListApi.csproj": {}
+    "/Users/ramprasathmeganathan/Projects/ToDoListApplication/ToDoListApi/ToDoList/ToDoListApi.csproj": {}
   },
   "projects": {
-    "/Users/ramprasathmeganathan/Projects/ToDoListApi/ToDoList/ToDoListApi.csproj": {
+    "/Users/ramprasathmeganathan/Projects/ToDoListApplication/ToDoListApi/ToDoList/ToDoListApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ramprasathmeganathan/Projects/ToDoListApi/ToDoList/ToDoListApi.csproj",
+        "projectUniqueName": "/Users/ramprasathmeganathan/Projects/ToDoListApplication/ToDoListApi/ToDoList/ToDoListApi.csproj",
         "projectName": "ToDoListApi",
-        "projectPath": "/Users/ramprasathmeganathan/Projects/ToDoListApi/ToDoList/ToDoListApi.csproj",
+        "projectPath": "/Users/ramprasathmeganathan/Projects/ToDoListApplication/ToDoListApi/ToDoList/ToDoListApi.csproj",
         "packagesPath": "/Users/ramprasathmeganathan/.nuget/packages/",
-        "outputPath": "/Users/ramprasathmeganathan/Projects/ToDoListApi/ToDoList/obj/",
+        "outputPath": "/Users/ramprasathmeganathan/Projects/ToDoListApplication/ToDoListApi/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ramprasathmeganathan/.config/NuGet/NuGet.Config"
